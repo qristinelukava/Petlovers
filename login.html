@@ -19,21 +19,49 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
+
 </head>
+
+<!-- header -->
 
 <body>
     <header>
+
+        <div class="background-image2">
+            <div class="login1">
+                <h2 class="login-wrapper">ავტორიზაცია</h2>
+                <form class="login-form">
+                    <label for="username">შეიყვანეთ მეილი:</label><br>
+                    <input class="input2" type="text" id="username" name="username"><br>
+                    <label for="pwd">შეიყვანეთ პაროლი:</label><br>
+                    <input class="input2" type="password" id="pwd" name="pwd"><br><br>
+                    
+                        <form class="checkbox">
+                            <input class="input4" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label class="label1" for="vehicle1"> დამახსოვრება</label><br>
+                           
+                        </form>
+
+
+                    
+                    <input class="input3" type="submit" value="შესვლა">
+                </form>
+            </div>
+        </div>
+
         <div class="header-block">
 
-            <div class="div-logo">
+            <a href="index.html">
+                <div class="div-logo">
 
-                <img class="paw" src="images/pawprint.svg" alt="paw">
-                <h2 class="petlovers">petlovers</h2>
-            </div>
+                    <img class="paw" src="images/pawprint.svg" alt="paw">
+                    <h2 class="petlovers">petlovers</h2>
+                </div>
+            </a>
             <div class="navigation">
                 <nav>
                     <ul class="nav-ul">
-                        <li class="nav-li"> <a class="nav-li " href="index.html"> მთავარი </a></li>
+                        <li class="nav-li"> <a class="nav-li active" href="index.html"> მთავარი </a></li>
                         <div class="dropdown">
                             <div class="fonts">
                                 <li> <a class="dropbtn" href="#"> სერვისები </a></li>
@@ -47,8 +75,8 @@
                                 </div>
                             </div>
                         </div>
-                        <li class="nav-li"> <a class="nav-li " href="about.html"> ჩვენს შესახებ </a></li>
-                        <li class="nav-li"> <a class="nav-li active" href="#"> კონტაქტი </a></li>
+                        <li class="nav-li"> <a class="nav-li" href="about.html"> ჩვენს შესახებ </a></li>
+                        <li class="nav-li"> <a class="nav-li" href="contact.html"> კონტაქტი </a></li>
 
 
                     </ul>
@@ -58,13 +86,13 @@
             <div class="log-lang">
                 <div class="log-div">
 
-                   <a href="login.html"><h2 class="login">ავტორიზაცია</h2></a> 
+                    <h2 class="login">ავტორიზაცია</h2>
                 </div>
                 <div class="drop-menu">
                     <img class="flag" src="images/georgia.svg" alt="georgia">
                     <div class="drop">
-                        <img class="flag1" src="images/english.png" alt="flag">
-                        <img class="flag1" src="images/russia.png" alt="flag">
+                        <a href="#"><img class="flag1" src="images/english.png" alt="flag"></a>
+                        <a href="#"><img class="flag1" src="images/russia.png" alt="flag"></a>
 
                     </div>
 
@@ -78,70 +106,10 @@
 
             </div>
 
-
         </div>
-
 
     </header>
-    <section>
-        <div class="big-div1">
 
-            <div class="form-container">
-                
-
-
-                <h2 class="contact-header">დაგვიკავშირდით</h2>
-                <form class="form1">
-                    <label for="fname"></label><br>
-                    <input type="text" id="fname" name="fname" autocomplete="off" placeholder="შეიყვანეთ სახელი"><br>
-                    <label for="email"></label><br>
-                    <input type="email" id="email" name="email" autocomplete="off" placeholder="შეიყვანეთ მეილი"><br><br>
-
-                    <textarea placeholder="შეიყვანეთ ტექსტი..."></textarea>
-                    <div class="input-btn">
-                        <button class="button-input" type="submit"></button>
-                        <span class="send"> გაგზავნა </span>
-                        <i class="fas fa-paper-plane" aria-hidden="true"></i>
-                    </div>
-
-
-
-                </form>
-
-            </div>
-            <dic class="soc-container">
-                <div class="flex">
-                    <div class="divs">
-                        <img class="soc-logo" src="images/phone.svg" alt="phone">
-                        <h2 class="head">ტელეფონის ნომერი</h2>
-                        <h2 class="numbers">032 002 003</h2>
-                    </div>
-                    <div class="divs">
-                        <img class="soc-logo" src="images/map.svg" alt="map">
-                        <h2 class="head">მთავარი ოფისი</h2>
-                        <h2 class="numbers">ვასილ პეტრიაშვილის ქუჩა #4</h2>
-                    </div>
-                </div>
-                <div class="flex">
-                    <div class="divs">
-                        <img class="soc-logo" src="images/email.svg" alt="email">
-                        <h2 class="head">მეილი</h2>
-                        <h2 class="numbers">petlovers@gmail.com</h2>
-                    </div>
-                    <div class="divs">
-                        <img class="soc-logo" src="images/printer.svg" alt="fax">
-                        <h2 class="head">ფაქსი</h2>
-                        <h2 class="numbers">556-002-003</h2>
-                    </div>
-                </div>
-
-
-
-
-        </div>
-
-        </div>
-    </section>
 
     <footer>
         <div class="footer-container">
@@ -177,11 +145,18 @@
                     <img class="images" src="images/email.svg" alt="Email">
                     <h2 class="ft"> Email: petlovers@gmail.com</h2>
                 </div>
+                <div class="icon-div1">
+                    <img class="soc-icons" src="images/facebook.svg" alt="fb-icon">
+                    <img class="soc-icons" src="images/instagram.svg" alt="instagram-icon">
+                    <img class="soc-icons" src="images/twitter.svg" alt="twitter-icon">
+                </div>
 
             </div>
 
         </div>
     </footer>
+
+
 
 
 </body>
