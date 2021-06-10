@@ -19,17 +19,16 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
 
 </head>
 
-<!-- header -->
 
 <body>
     <header>
 
         <div class="background-image">
-
-
 
             <div class="header-block">
 
@@ -46,7 +45,7 @@
                             <li class="nav-li"> <a class="nav-li active" href="index.html"> მთავარი </a></li>
                             <div class="dropdown">
                                 <div class="fonts">
-                                    <li> <a class="dropbtn" href="#"> სერვისები </a></li>
+                                    <li> <a class="dropbtn"> სერვისები </a></li>
                                     <i class="fas fa-arrow-down"></i>
                                     <div class="dropdown-content">
                                         <a class="list" href="#">გასეირნება</a>
@@ -66,9 +65,9 @@
                 </div>
 
                 <div class="log-lang">
-                    <div class="log-div">
+                    <div class="log-div" id="myBtn">
 
-                       <a href="login.html"><h2 class="login">ავტორიზაცია</h2></a> 
+                        <h2 class="login">ავტორიზაცია</h2>
                     </div>
                     <div class="drop-menu">
                         <img class="flag" src="images/georgia.svg" alt="georgia">
@@ -81,28 +80,24 @@
                     </div>
                 </div>
 
-
                 <div class="burger-bar">
                     <i class="fas fa-bars burger"></i>
-
-
                 </div>
 
-
             </div>
-            <div class="adopt-header">
+            <div class="adopt-header animate__animated  animate__fadeInLeft">
                 <h3 class="pet-adopt"> ფიქრობთ შინაური ცხოველის აყვანაზე?</h3>
                 <h3 class="adopt-container">გაუხსენით გული და სახლის კარი მეგობარს მთელი ცხოვრების განმავლობაში.
                 </h3>
-               <a href="adopt.html" class="find-bt">იპოვე ეხლავე</a>
+                <a href="adopt.html" class="find-bt">იპოვე ეხლავე</a>
 
-</div>
-                <div>
-                    <img class="chat" src="images/chat.svg" alt="chat">
-
-
-                </div>
             </div>
+            <div>
+                <img class="chat" src="images/chat.svg" alt="chat">
+
+
+            </div>
+        </div>
     </header>
     <!-- section 1 -->
     <section>
@@ -116,28 +111,26 @@
                     იზრუნებენ თქვენი საყვარელი ცხოველების ჯანმრთელობაზე და მათ მოვლაზე.</p>
 
             </div>
-
         </div>
     </section>
-
-
 
     <!-- section 2 -->
 
     <div class="section-2">
-
         <h2 class="services">ჩვენი სერვისები</h2>
         <div class="ser-container">
             <div class="first-block">
                 <div class="walk">
-                   <h3 class="components">გასეირნება</h3>
+                    <h3 class="components">გასეირნება</h3>
                     <img class="animal" src="images/animals.svg" alt="walking">
 
                 </div>
                 <p class="animal-p"> ჩვენი პატარა ოთხფეხა მეგობრები ხშირად იწყენენ,ამიტომაც საჭიროა მათი გასეირნება
                     ხშირად.</p>
                 <div class="walk">
-                   <a href="adopt.html"> <h3 class="components">აყვანა</h3></a> 
+                    <a href="adopt.html">
+                        <h3 class="components">აყვანა</h3>
+                    </a>
                     <img class="animal" src="images/cat.svg" alt="walking">
                 </div>
                 <p class="animal-p"> ჩვენი პატარა ოთხფეხა მეგობრები ხშირად იწყენენ,ამიტომაც საჭიროა მათი გასეირნება
@@ -163,7 +156,6 @@
 
         </div>
 
-
     </div>
 
     <!--section 3  -->
@@ -171,8 +163,6 @@
         <div class="bg-image">
             <h2 class="section3-wrapper">ჩვენი გუნდი</h2>
             <div class="big-div">
-
-
                 <div class="first">
                     <img class="img" src="images/doc1.jpg" alt="doctor">
                     <h3 class="name">ვიქტორ დოლიძე</h3>
@@ -213,14 +203,14 @@
                         <i class="fab fa-twitter-square"></i>
                     </div>
                 </div>
-
-
             </div>
             <button class="sec3-button">გაიგე მეტი</button>
         </div>
     </section>
     <!-- section 4 -->
     <section>
+
+
         <div class="section4-div">
             <div class="wrapper-div">
 
@@ -257,10 +247,6 @@
         </div>
     </section>
 
-
-
-
-
     <footer>
         <div class="footer-container">
             <div class="left-block">
@@ -288,11 +274,11 @@
             <div class="right-block">
                 <h2 class="footer-contact">კონტაქტი </h2>
                 <div class="cont-div">
-                    <img class="images" src="images/telephone.svg" alt="phone">
-                    <h2 class="ft"> ტელ.: 032 002 003</h2>
+                    <a href="tel:032 002 003"><img class="images" src="images/telephone.svg" alt="phone"></a>
+                    <h2 class="ft">ტელ.: 032 002 003</h2>
                 </div>
                 <div class="cont-div">
-                    <img class="images" src="images/email.svg" alt="Email">
+                    <a href="mailto:qiso.lukava@gmail.com"><img class="images" src="images/email.svg" alt="Email"></a>
                     <h2 class="ft"> Email: petlovers@gmail.com</h2>
                 </div>
                 <div class="icon-div1">
@@ -305,14 +291,54 @@
 
         </div>
     </footer>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>ავტორიზაცია</h2>
+            </div>
+            <div class="modal-body">
+                <div class="login1">
+                    <h2 class="login-wrapper">ავტორიზაცია</h2>
+                    <form class="login-form">
+                        <label for="username">შეიყვანეთ მეილი:</label><br>
+                        <input class="input2" type="text" id="username" name="username"><br>
+                        <label for="pwd">შეიყვანეთ პაროლი:</label><br>
+                        <input class="input2" type="password" id="pwd" name="pwd"><br><br>
+                        <form class="checkbox">
+                            <input class="input4" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label class="label1" for="vehicle1"> დამახსოვრება</label><br>
+
+                        </form>
+                        <!-- <input class="input3" type="submit" value="შესვლა"> -->
+                        <button type="submit" class="input3">შესვლა</button>
+
+                    </form>
+                    <div class="registration">
+                        <a href="#">
+                            <h3 class="reg">რეგისტრაცია</h3>
+                        </a>
+                        <a href="#">
+                            <h3 class="reg">პაროლის აღდგენა</h3>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Slick Js file -->
     <script src="slick.min.js"></script>
     <!-- Main js with code -->
     <script src="script.js"></script>
-
 </body>
 
 </html>
