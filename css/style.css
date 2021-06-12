@@ -1206,7 +1206,6 @@ height: 1800px;
   }
   .groom-div1 {
       display: flex;
-      /* margin-left: 200px; */
       background-color: rgb(233, 228, 212);
       padding: 30px;
   }
@@ -1458,4 +1457,147 @@ height: 1800px;
     height: 50px;
     margin-top: 100px;
     margin-left: 320px;
+}
+/* walking style */
+
+.walk-container {
+    padding-top: 180px;
+    padding-bottom: 250px;
+
+}
+.walk-wrapper {
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    color: white;
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid #ff9900 ;
+    background-color: #ff9900;
+    padding: 15px;
+    margin-left: 800px;
+    text-align: center;
+}
+.wrapper2 {
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    color: white;
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid #ff9900 ;
+    background-color: #ff9900;
+    padding: 15px;
+    margin-left: 800px;
+    text-align: center;
+}
+.walking-box {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.walk-img {
+    max-width: 700px;
+    width: 100%;
+    border-radius: 27% 73% 30% 70% / 59% 30% 70% 41% ;
+    margin-bottom: 70px;
+
+}
+.walk-div {
+    padding: 34px;
+}
+.walk-paragraph {
+
+    font-size: 20px;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    color: #0f0f0f;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 20px;
+    
+}
+.walk-button3 {
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: #ff9900;
+    border-color: white;
+    margin-top: 80px;
+    margin-right: 100px;
+    float: right;
+}
+.walk2{
+    display: flex;
+    max-width: 1600px;
+    margin-left: 200px;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.walk3 {
+    display: flex;
+    max-width: 1600px;
+    margin-left: 200px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.walk-div1 {
+max-width: 700px;
+width: 100%;
+display: flex;
+border: 3px solid #aaaaaa;
+ box-shadow: 10px 10px 5px #aaaaaa;
+padding:20px;
+}
+.walk-container2 {
+padding-top: 150px;
+}
+.walk-flex{
+    margin-top: 50px;
+    text-align: center;
+    padding:10px;
+}
+
+.person {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 20%;
+}
+.person1 {
+    max-width: 390px;
+    width: 100%;
+    height: 300px;
+    border-radius: 20%;
+}
+.walk-name {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    color: #ff9900;
+}
+.walk-p {
+    font-size: 18px;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    color: #0f0f0f;
+    margin-top: 30px;
+}
+.walk-button {
+    max-width: 120px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: #ff9900;
+    border-color: white;
+    margin-top: 15px;
+}
+.walk-button1 {
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: #ff9900;
+    border-color: white;
+    margin-top: 50px;
+    margin-right: 200px;
+    float: right;
 }
