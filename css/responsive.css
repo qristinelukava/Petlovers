@@ -60,7 +60,7 @@ flex-direction: column;
         
     }
    
-}
+
     .paw {
     width: 30px;
     margin-left:auto;
@@ -167,4 +167,5 @@ text-align: center;
 }
 .left-block {
     margin:auto;
+}
 }
