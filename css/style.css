@@ -16,7 +16,6 @@
 	display: flex;
     justify-content: space-between;
 	top: 0;
-    flex-wrap: wrap;
     background-color: black;
     position: fixed;
     z-index: 7;
@@ -159,6 +158,7 @@
     margin-right: 80px;
     margin-left: 50px;
     margin-top: 18px;
+    display: block;
 
 }
 .flag1 {
@@ -301,7 +301,7 @@
 .section-2 {
     margin-top: 100px;
     margin-bottom: 100px;
-    
+    flex-wrap: wrap;
 }
 .services {
     font-size: 30px;
@@ -328,6 +328,7 @@
     display: flex;
     margin-left: 450px;
     margin-top: 80px;
+    flex-wrap: wrap;
 }
 .walk {
     display: flex;
@@ -374,6 +375,7 @@
 /* section-3 style */
 .section-3 {
     height: 800px;
+    flex-wrap: wrap;
  
 }
 
@@ -391,6 +393,7 @@
     display: flex;  
     padding-top: 150px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .section3-wrapper {
@@ -563,11 +566,13 @@
     text-align: center;
     display: flex;
     z-index: 9;
+    flex-wrap: wrap;
 }
 .left-block {
     max-width: 400px;
     width: 100%;
     margin-left:60px ;
+    fle
 }
 .petlovers2 {
     font-size: 22px;
@@ -856,6 +861,7 @@
     background-repeat: no-repeat;
     position: relative;
     padding-top: 200px;
+   
 }
 .login1 {
     max-width: 600px;
@@ -863,7 +869,7 @@
     height: 600px;
     background-color: white;
     margin: 0 auto;
-   
+  
 }
 .login-wrapper {
     font-size: 30px;
@@ -928,6 +934,7 @@
 /* adopt style */
 .adopt-sec {
 height: 1800px;
+margin-left: 80px;
 }
 .divs-div {
     width: 100%;
@@ -977,6 +984,8 @@ height: 1800px;
     display: flex;
     margin-bottom: 50px;
    margin-left: 150px;
+   max-width: 900px;
+   width: 100%;
    
 }
 
@@ -986,6 +995,13 @@ height: 1800px;
   
 }
 .cat-img:hover{
+    opacity: 0.3;
+}
+.cat-img9{
+    max-width: 300px;
+   height: 290px;
+}
+.cat-img9:hover {
     opacity: 0.3;
 }
 .box-wrapper {
@@ -1012,7 +1028,7 @@ height: 1800px;
     border: 2px solid white;
 }
 .pic-div1 {
-    max-width: 330px;
+    max-width: 310px;
     width: 100%;
     height: 400px;
     margin-right: 40px;
@@ -1039,6 +1055,17 @@ height: 1800px;
     box-shadow: 10px 10px 5px #aaaaaa;
     text-align: center;
 }
+.pic-div4{
+    max-width: 400px;
+    height: 100%;
+    height: 410px;
+    margin-right: 40px;
+    padding: 7px;
+    border: 3px solid #aaaaaa;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    text-align: center;
+}
+  
 .adopt-btn {
     max-width: 200px;
     width: 100%;

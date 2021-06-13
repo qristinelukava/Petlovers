@@ -28,6 +28,11 @@ $(function(){
     ]
   });    
 });
+
+
+
+
+
  // Get the modal
  var modal = document.getElementById("myModal");
     
@@ -53,3 +58,18 @@ $(function(){
 	 modal.style.display = "none";
    }
  }
+
+
+
+
+
+
+ let burgerbtn = document.getElementById ('burgerbtn');
+ let links  = document.getElementById ('links');
+
+
+
+
+ burgerbtn.addEventListener('click',function () {
+	 links.classList.toggle('active');
+ })
