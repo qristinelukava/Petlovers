@@ -63,13 +63,3 @@ $(function(){
 
 
 
-
- let burgerbtn = document.getElementById ('burgerbtn');
- let links  = document.getElementById ('links');
-
-
-
-
- burgerbtn.addEventListener('click',function () {
-	 links.classList.toggle('active');
- })
