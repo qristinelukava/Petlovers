@@ -728,11 +728,11 @@ justify-content: center;
     /* margin-left: 40px; */
  }
  .dropbtn {
-    font-size: 18px;
+    font-size: 15px;
    
 }
 .nav-li {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 20px;
    
 }
@@ -741,7 +741,7 @@ justify-content: center;
     background-color: black;
     padding-right: 18px;
     padding-bottom: 20px;
-    width: 160px;
+    width: 130px;
     margin:0;
 }
 .log-lang{
