@@ -644,8 +644,41 @@ justify-content: center;
      justify-content: center;
      height: 800px;
    }
- 
-   
+   .walk-container {
+       width: 370px;
+      margin: 0 auto;
+   }
+   .walk-img {
+       width: 250px;
+       margin-left: 30px;
+   }
+   .walking-box{
+       width: 370px;
+   }
+   .walk2 {
+       width: 300px;
+   }
+   .ask-box{
+       width: 390px;
+       justify-content: center;
+   }
+   .flex6{
+      margin:0 auto;
+      margin-top: 30px;
+   }
+   .form-button {
+       margin-left: 150px;
+       margin-top:30px;
+   }
+   .groom-div {
+       width:370px;
+   }
+ .groom-div1, .groom-div2 {
+     width: 380px;
+ }
+ .section3-wrapper {
+    margin-left: 70px;
+ }
        
 
 
@@ -788,5 +821,17 @@ justify-content: center;
 }
 .paw{
     margin-right: 30px;
+}
+.adopt-header {
+    width: 250px;
+}
+.section-1 {
+    width: 280px;
+}
+.paragraph {
+    font-size: 20px;
+}
+.section1-wrapper {
+    font-size: 24px;
 }
 }
