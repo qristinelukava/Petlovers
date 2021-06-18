@@ -953,6 +953,7 @@ text-align: center;
     max-width: 100px;
     width: 100%;
     justify-content: space-around;
+    margin:0 auto;
 }
 .input4{
    max-width: 20px;
@@ -962,6 +963,7 @@ text-align: center;
 .label1 {
     font-weight: bold;
     font-family: "BPG Nino Elite Caps", sans-serif;
+   
 }
 .registration {
     display: flex;
