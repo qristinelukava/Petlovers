@@ -225,7 +225,7 @@ margin-top: 15px;
    
 }
 .nav-li {
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 20px;
    
 }
@@ -235,7 +235,7 @@ margin-top: 15px;
     background-color: black;
     padding-right: 18px;
     padding-bottom: 20px;
-    width: 200px;
+    width: 160px;
     margin:0;
 }
 .nav-link.active {
@@ -247,7 +247,7 @@ margin-top: 15px;
     margin-top: 20px;
 }
 .dropbtn {
-    font-size: 17px;
+    font-size: 15px;
    
   
 }
@@ -741,7 +741,7 @@ justify-content: center;
     background-color: black;
     padding-right: 18px;
     padding-bottom: 20px;
-    width: 200px;
+    width: 160px;
     margin:0;
 }
 .log-lang{
@@ -917,5 +917,7 @@ justify-content: center;
 .groom-icon {
     width: 200px;
 }
-
+.burger {
+    width: 20px;
+}
 }
