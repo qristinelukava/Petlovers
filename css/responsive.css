@@ -937,4 +937,17 @@ justify-content: center;
     margin: 0 auto;
     margin-left: 10px;
 }
+.section-11 {
+    width: 200px;
+    padding:0;
+}
+.ser-container {
+    width: 200px;
+}
+
+.section3-wrapper {
+    font-size: 25px;
+    width: 160px;
+    margin-left: 70px;
+}
 }
